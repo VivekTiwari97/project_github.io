@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    background-color: orange;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100px;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-top {
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.mockup{
+    height: 500px;
+    margin-top: 150px;
+
+}
+.form{
+    width: 100%;
+}
+.flex-column{
+    flex-direction: column;
+}
+.form-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;
+}
+.form-section h1{
+   font-size: 40px;
+    width: 25px 0;
+    color: rgb(14, 1, 1);
+    text-transform: capitalize;
+}
+input{
+font-size: 20px;
+padding: 10px 30px;
+margin-bottom: 15px;
+border-radius: 8px;
+border: 1px solid grey;
+width: 100%;
+margin: 0px 6px 10px 6px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(73, 231, 45);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+.btn-facebook{
+    background-color: rgb(15, 15, 102);
+}
+.btn-twitter{
+    background-color: rgb(0, 195, 255);
+}
+@media screen and (max-width: 700px){
+.form-section{
+    padding: 20px 30px;
+}
+.row{
+    flex-direction: column;
+}
+.mockup{
+    display: none;
+}
+main{
+    grid-template-columns: 1fr;
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;}
+}
+.body{
+    background-color: rgb(38, 173, 226);
+}
+
+
+    
