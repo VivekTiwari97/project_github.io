@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Oswald:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    max-width: 1440px;
+    background-color: rgb(233, 234, 220);
+    margin: auto;
+    overflow: hidden;
+    font-family: Montserrat;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: Montserrat;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 600px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600px;
+}
+nav ul li:first-child{
+    color: rgb(8, 173, 121);
+}
+main{
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main{
+    width: 50%;
+}
+.leftmain{
+    margin-left: 5%;
+    position: relative;
+}
+.ta{
+    width: 25px;
+}
+.leftmain h1{
+    font-size: 70px;
+    font-weight: 600px;
+}
+.leftmain p{
+    color: dimgray;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.ba{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+.sc{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25px;
+    z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 30px;
+}
+.leftmain button{
+ color: white;
+ background-color: rgb(24, 167, 134);
+ padding: 20px 40px 20px;
+ border: none;
+ border-radius: 40px;
+ font-size: 25px;
+ margin-top: 40px;
+}
+.greenbox, .yellobox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+.yellobox{
+    width: 30%;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
+
